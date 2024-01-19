@@ -1,0 +1,53 @@
+.voucher-ctn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  border: solid 5px black;
+  border-radius: 15px;
+  background-color: whitesmoke;
+
+  .voucher-title {
+    font-size: 3rem;
+    margin: 1rem;
+    color: black;
+    text-align: center;
+  }
+  .voucher-subtitle {
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+  }
+  .voucher-text {
+    margin: 0 1rem 0 1.5rem;
+    color: black;
+    text-align: center;
+  }
+  .code {
+    color: black;
+    display: block;
+    margin: auto;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    @media screen and (min-width: 650px) {
+      font-size: 2rem;
+    }
+  }
+  .product-img {
+    width: 50vw;
+    height: 100%;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+
+    @media screen and (min-width: 451px) and (max-width: 961px) {
+      width: 50%;
+      height: 100%;
+    }
+
+    @media screen and (min-width: 961px) and (max-width: 1920px) {
+      width: 30%;
+      height: 100%;
+    }
+  }
+}
